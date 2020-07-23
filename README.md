@@ -1,4 +1,4 @@
-DayZ_SA_NoMoreSurvivor is a simple mod to encourage survivors to drop the tacky name and name themselves!
+DayZ_SA_NoMoreSurvivor is a simple mod to encourage survivors to drop the generic name and name themselves!
 =====
 
 
