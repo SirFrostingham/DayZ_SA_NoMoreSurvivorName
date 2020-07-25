@@ -12,7 +12,7 @@ This mod will spawn anyone with the name "Survivor" COMPLETELY naked, with messa
 
 Prerequisite / mod dependencies
 ---
-1. This mod must be installed on the server for player messaging to work: @RPCFramework
+1. This mod must be installed on the server for player messaging to work: @CF - https://steamcommunity.com/sharedfiles/filedetails/?id=1559212036 (Note: It used to be called: @RPCFramework)
 
 Install instructions
 ---
