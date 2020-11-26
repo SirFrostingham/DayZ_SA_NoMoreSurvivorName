@@ -12,14 +12,16 @@ This mod will spawn anyone with the name "Survivor" COMPLETELY naked, with messa
 
 Prerequisite / mod dependencies
 ---
-1. This mod must be installed on the server for player messaging to work: @RPCFramework
+1. This mod must be installed on the server for player messaging to work: @CF - https://steamcommunity.com/sharedfiles/filedetails/?id=1559212036 (Note: It used to be called: @RPCFramework)
 
 Install instructions
 ---
 1. Download all files
 2. Edit your mission's init.c file
-3. Merge all sections marked with "//DayZ_NoMoreSurvivor:START" and "//DayZ_NoMoreSurvivor:END"
-4. Run game
+3. Review included "Missions" folder and merge all sections marked with (NOTE: There is more than one section) "//DayZ_NoMoreSurvivor:START" and "//DayZ_NoMoreSurvivor:END"
+4. Optional: Review CustomLoadout section and uncomment code between "//OPTIONAL:DayZ_SA_NoMoreSurvivorName:CustomLoadoutExample:START" and "//OPTIONAL:DayZ_SA_NoMoreSurvivorName:CustomLoadoutExample:END"
+5. Optional: If you did step #4, remove redundant handgun and 2 clips below "//OPTIONAL:DayZ_SA_NoMoreSurvivorName:CustomLoadoutExample:END"
+6. Run game
 
 How to test
 ---
