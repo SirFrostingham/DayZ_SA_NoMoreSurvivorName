@@ -116,11 +116,9 @@ class CustomMission: MissionServer
 		//DayZ_SA_NoMoreSurvivorName:START
 		bool playerNameIsSurvivor = false;
 		string characterName = player.GetIdentity().GetName();
-		int derpDiscard = characterName.ToLower();
-		autoptr TStringArray nameArray = new TStringArray; // dynamic array declaration, "TStringArray" is the same as "array<string>"
-		nameArray.Insert(characterName);
+		characterName.ToLower();
 		
-		if ( nameArray.Find( "survivor" ) >= 0 )
+		if ( characterName.Contains("survivor") )
 		{
 			playerNameIsSurvivor = true;
 		}
